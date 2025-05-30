@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platos Típicos de Ecuador</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: cursive sans-serif;
+            
+            /* Imagen de fondo */
+            background-image: url('https://turismo.ecuadors.live/wp-content/uploads/2023/09/Header-Turismo-Ecuador-Lives-en-un-solo-clic-ecuador-turistico-ecuador-y-los-mejores-lugares-turisticos-para-visitar-y-viajar-a-ecuador-scaled.webp');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            
+            /* Color de respaldo por si la imagen no carga */
+            background-color: #f0f0f0;
+            
+            /* Asegurar que el contenido sea legible sobre la imagen */
+            color: #333;
+        }
+        header {
+            background-color:aqua
+            color: aqua;
+            text-align: center;
+            padding: 3rem 0;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+        
+        h1 span {
+            display: inline-block;
+            animation: bounce 0.5s ease infinite alternate;
+        }
+        
+        @keyframes bounce {
+            to { transform: translateY(-10px) rotate(5deg); }
+        }
+        
+        /* Retraso para cada letra */
+        h1 span:nth-child(1) { animation-delay: 0.1s; }
+        h1 span:nth-child(2) { animation-delay: 0.2s; }
+        h1 span:nth-child(3) { animation-delay: 0.3s; }
+        h1 span:nth-child(4) { animation-delay: 0.4s; }
+        h1 span:nth-child(5) { animation-delay: 0.5s; }
+        h1 span:nth-child(6) { animation-delay: 0.6s; }
+        h1 span:nth-child(7) { animation-delay: 0.7s; }
+        h1 span:nth-child(8) { animation-delay: 0.8s; }
+        h1 span:nth-child(9) { animation-delay: 0.9s; }
+        h1 span:nth-child(10) { animation-delay: 1.0s; }
+        h1 span:nth-child(11) { animation-delay: 1.1s; }
+        h1 span:nth-child(12) { animation-delay: 1.2s; }
+        h1 span:nth-child(13) { animation-delay: 1.3s; }
+        h1 span:nth-child(14) { animation-delay: 1.4s; }
+        h1 span:nth-child(15) { animation-delay: 1.5s; }
+        h1 span:nth-child(16) { animation-delay: 1.6s; }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .plato {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+        
+        .plato-info {
+            padding: 1.5rem;
+        }
+        
+        .plato h2 {
+            color: #f44336;
+            margin-top: 0;
+        }
+        
+        .plato img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (min-width: 768px) {
+            .platos-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .platos-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <span>P</span>
+            <span>l</span>
+            <span>a</span>
+            <span>t</span>
+            <span>o</span>
+            <span>s</span>
+            <span> </span>
+            <span>T</span>
+            <span>í</span>
+            <span>p</span>
+            <span>i</span>
+            <span>c</span>
+            <span>o</span>
+            <span>s</span>
+            <span> </span>
+            <span>d</span>
+            <span>e</span>
+            <span> </span>
+            <span>E</span>
+            <span>c</span>
+            <span>u</span>
+            <span>a</span>
+            <span>d</span>
+            <span>o</span>
+            <span>r</span>
+        </h1>
+        <p>Descubre la deliciosa gastronomía ecuatoriana</p>
+    </header>
+    <div class="container">
+        <div class="platos-container">
+            <!-- Plato 1 -->
+            <div class="plato">
+                <img src="https://i0.wp.com/recetaskwa.com/wp-content/uploads/2025/01/Encebollado_2025_3.jpg?resize=1024%2C683&ssl=1" alt="Encebollado">
+                <div class="plato-info">
+                    <h2>Encebollado</h2>
+                    <p>Considerado el plato insignia de la costa ecuatoriana, el encebollado es una sopa de pescado (generalmente albacora) con yuca, cebolla encurtida y tomate. Se sirve con chifles (plátanos verdes fritos en rodajas) y es conocido como el mejor remedio para la resaca.</p>
+                    <p><strong>3.00$</strong>
+                </div>
+            </div>
+            
+            <!-- Plato 2 -->
+            <div class="plato">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZSqbdz_ZgYQ67NNwEmol6O7PoqSIwIPWm7w&s" alt="Cuy asado">
+                <div class="plato-info">
+                    <h2>Cuy Asado</h2>
+                    <p>Un plato tradicional de la sierra ecuatoriana, el cuy (conejillo de indias) se asa al carbón y se sirve entero con papas, mote (maíz cocido) y una salsa de maní. Es un plato típico en festividades y celebraciones importantes.</p>
+                    <p><strong>7.00$</strong>
+                </div>
+            </div>
+            
+            <!-- Plato 3 -->
+            <div class="plato">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHbsm-C7QJj2SdELR0tbcpccs8INfvU_N99g&s" alt="Fanesca">
+                <div class="plato-info">
+                    <h2>Fanesca</h2>
+                    <p>Una sopa espesa y cremosa preparada con 12 tipos diferentes de granos (representando a los 12 apóstoles) y bacalao seco. Se consume tradicionalmente durante la Semana Santa y se acompaña con molo (puré de papas), huevo duro, queso, plátano maduro y empanadas.</p>
+                    <p><strong>5.00$</strong>
+                </div>
+            </div>
+            
+            <!-- Plato 4 -->
+            <div class="plato">
+                <img src="https://www.aki.com.ec/wp-content/uploads/2021/01/seco-chivo.jpg" alt="Seco de chivo">
+                <div class="plato-info">
+                    <h2>Seco de Chivo</h2>
+                    <p>Un guiso de carne de chivo (cabrito) cocinado lentamente con cerveza, ajo, comino y otros condimentos. Se sirve con arroz, aguacate, plátano maduro y curtido de cebolla. Es un plato muy popular en la región costera.</p>
+                    <p><strong>3.00$</strong> 
+                </div>
+            </div>
+            
+            <!-- Plato 5 -->
+            <div class="plato">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXnxaOT0_IlUxc9_FcxlfSb1V6sndEa87Uca73sgOShKEfu9TSHaG57i6hvgzNoggX1_M&usqp=CAU" alt="Llapingachos">
+                <div class="plato-info">
+                    <h2>Llapingachos</h2>
+                    <p>Tortillas de papa rellenas de queso y fritas, típicas de la sierra ecuatoriana. Se sirven con chorizo, huevo frito, aguacate, ensalada y una deliciosa salsa de maní. Son el acompañamiento perfecto para carnes asadas.</p>
+                    <p><strong>5.00$</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Gastronomía Ecuatoriana - Todos los derechos reservados</p>
+         <p> Para reservar tu plato comunícate al: 
+         0978881106 - mcuaspa39@gamil.com</p>
+    </footer>
+</body>
+</html>
